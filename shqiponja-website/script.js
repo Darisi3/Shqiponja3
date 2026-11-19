@@ -31,7 +31,7 @@ const menu = [
       ["Pizza Vegjetariane", "3.00 € / 3.50 € / 4.50 €"]
     ]},
     { subtitle: "Pizza familjare", items: [
-      ["Pizza familjare Shtepie", "15.00 €", "+ Cola 1.25 €"],
+      ["Pizza familjare Shtepie", "15.00 €", "+ Cola 1.25L "],
       ["Pizza familjare Tuna", "16.00 €"],
       ["Pizza familjare Margarita", "14.00 €"]
     ]}
@@ -53,7 +53,7 @@ const menu = [
     ["Sallatë Tuna", "3.50 €"]
   ]},
   { name: "Skara", items: [
-    ["Hamburger i vogël", "2.00 €"],
+    ["Hamburger ", "2.00 €"],
     ["Hamburger pule", "2.00 €"],
     ["Pleskavicë", "3.50 €"],
     ["Pleskavicë me sos", "3.50 €"],
