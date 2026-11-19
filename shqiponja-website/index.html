@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Menuja digjitale e Furrës & Pizzerisë Shqiponja.">
+  <title>Shqiponja | Menu Digjitale</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand-mark" href="#" aria-label="Shqiponja - Ballina" id="home-link">
+      <img src="assets/logo.png" alt="Logo Shqiponja">
+    </a>
+    <div class="topbar-name">
+      <span>FURRA &amp; PIZZERIA</span>
+      <strong>SHQIPONJA</strong>
+    </div>
+    <a class="phone-link" href="tel:+38345951922" aria-label="Telefono Shqiponjën">☎ +383 45 951 922</a>
+    <span class="since-pill">SINCE 1994</span>
+  </header>
+
+  <main class="shell">
+    <section id="welcome-view" class="welcome-view">
+      <div class="hero-card">
+        <div class="hero-emblem">
+          <img src="assets/logo.png" alt="Shqiponja">
+        </div>
+        <p class="kicker">MIRË SE ERDHËT</p>
+        <h1>Shije që bashkojnë.<br><span>Traditë që vazhdon.</span></h1>
+        <p class="hero-copy">Zbuloni menynë tonë dhe zgjidhni të preferuarën tuaj.</p>
+        <a class="hero-phone" href="tel:+38345951922">☎ Porositni në: +383 45 951 922</a>
+        <div class="gold-rule"></div>
+        <p class="choose-label">ZGJIDHNI ÇFARË DËSHIRONI</p>
+        <p class="swipe-hint">Në telefon, rrëshqitni majtas për të hapur menynë.</p>
+        <div class="service-hours" role="note"><strong>⏰ Mëngjesi shërbehet deri në ora 14:00.</strong></div>
+      </div>
+      <div id="category-grid" class="category-grid" aria-label="Kategoritë e menusë"></div>
+      <p class="welcome-foot">FURRA &amp; PIZZERIA SHQIPONJA <span>·</span> SINCE 1994</p>
+    </section>
+
+    <section id="category-view" class="category-view" hidden>
+      <button class="back-button" id="back-button" type="button"><span aria-hidden="true">←</span> Kthehu te menuja</button>
+      <div class="category-intro">
+        <p class="kicker">MENUJA JONË</p>
+        <h1 id="active-category-title"></h1>
+        <p id="active-category-subtitle">Përgatitur me kujdes, për t'u shijuar.</p>
+        <div class="gold-rule"></div>
+      </div>
+      <div id="category-hours" class="category-hours" hidden role="note"></div>
+      <div id="category-items"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">SHQIPONJA</div>
+    <div>FURRA &amp; PIZZERIA <span>·</span> SINCE 1994</div>
+    <small class="footer-phone"><a href="tel:+38345951922">☎ +383 45 951 922</a></small>
+    <small>Çmimet janë në euro (€).</small>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
